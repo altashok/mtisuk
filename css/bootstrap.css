@@ -1238,6 +1238,11 @@ ol ol {
   margin-left: -5px;
   list-style: none;
 }
+ul > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
 .list-inline > li {
   display: inline-block;
   padding-right: 5px;

@@ -58,23 +58,6 @@
             </div>
         </div>
     </section>
-    <?php 
-    if(isset($_POST['submit'])){
-        $to = "ashok.nayagam@gmail.com"; // this is your Email address
-        $from = "ashok.nayagam@gmail.com"
-        $name = $_POST['name'];
-        $subject = $_POST['subject'];
-        $message = $name . " wrote the following:" . "\n\n" . $_POST['message'];
-    
-        //Headers
-        $headers  = "MIME-Version: 1.0\r\n";
-        $headers .= "Content-type: text/html; charset=UTF-8\r\n";
-        $headers .= "From: " . $from ;
-        mail($to,$subject,$message,$headers);
-        echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
-        // You can also use header('Location: thank_you.php'); to redirect to another page.
-        }
-    ?>
     <main>
         <section class="popular-places">
             <div class="container">
@@ -83,7 +66,7 @@
                         <div class="col-md-8"> 
                             <div class="left-content">
                                 <div class="row">
-                                    <form action="" method="post">
+                                    <form method="post" name="myemailform" action="form-to-email.php">
                                         <div class="col-md-6">
                                             <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
                                         </div>
@@ -95,7 +78,8 @@
                                         </div>
                                         <div class="col-md-12">
                                             <div class="blue-button">
-                                                <input type="submit" class="btn" id="form-submit" name="submit" value="Send Message">
+                                                <!-- <input type="submit" class="btn" id="form-submit" name="submit" value="Send Message"> -->
+                                                <input type="submit" name='submit' value="submit">
                                             </div>
                                         </fieldset>
                                         </div>
@@ -109,7 +93,7 @@
                                     <div class="col-md-12">
                                         <div class="content"> 
                                             <p>You can reach us through any of the channels below. Let us make it a time of great exchanges as we partner for new heights. We are competent to serve our field and we hold the ace in Telecommunication infrastructure solutions. </p>
-                                            <ul>
+                                            <ul style="list-style-type: none;">
                                                 <li><span>Phone:</span><a href="#">+44 7813 797544</a></li>
                                                 <li><span>Email:</span><a href="#">contact@company.com</a></li>
                                                 <li><span>Address:</span><i class="fa fa-map-marker"></i> 212 Barrington Court New York</li>
@@ -188,7 +172,7 @@
                         <div class="logo">
                             <img src="img/logo.png" alt="Venue Logo">
                         </div>
-<p>MTIS UK Limited provide services to private business and government organisations throughout UK, and specialize in the rollout of Telecommunications, Deployment & Intergeneration, Operation & Maintenance, Testing & Optimization, RAN Support and much more.</p>
+                        <p>Multitech Integrated Solutions UK Limited provide services to private business and government organisations throughout UK, and specialize in the rollout of Telecommunications, Deployment & Intergeneration, Operation & Maintenance, Testing & Optimization, RAN Support and much more.</p>
                     </div>
                 </div>
                 <div class="col-md-4">

@@ -1330,3 +1330,8 @@ main > section {
 main > section:nth-child(even) { 
   background: #f8f8f8; 
 }
+
+main ul {
+  list-style-type: circle;
+  list-style-position: inside;
+}
