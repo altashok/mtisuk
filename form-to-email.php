@@ -15,12 +15,12 @@ if(empty($name)||empty($subject))
     exit;
 }
 
-$email_from = '<ashok.nayagam@gmail.com>';//<== update the email address
+$email_from = '<mtisuklimited@gmail.com>';//<== update the email address
 $email_subject = $subject;
 $email_body = 'Message from user: $name.\n'.
     'Message:\n $message'.
     
-$to = '<ashok.nayagam@gmail.com>';//<== update the email address
+$to = '<info@mtisuklimited.co.uk>';//<== update the email address
 $headers = 'From: $email_from \r\n';
 //Send the email!
 mail($to,$email_subject,$email_body,$headers);
