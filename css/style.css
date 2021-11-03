@@ -995,7 +995,7 @@ section.contact .section-heading {
   border-radius: 0px;
   padding-left: 15px;
   font-size: 13px;
-  color: #aaa;
+  color: #000;
   background-color: #f4f4f4;
   border: 1px solid #eee;
   outline: none;
@@ -1011,7 +1011,7 @@ textarea.form-control {
   padding-left: 15px;
   padding-top: 10px;
   font-size: 13px;
-  color: #aaa;
+  color: #000;
   background-color: #f4f4f4;
   border: 1px solid #eee;
   outline: none;
