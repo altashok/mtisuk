@@ -339,9 +339,9 @@
                         <div class="footer-heading">
                             <h4>Contact Information</h4>
                         </div>
-                        <p><i class="fa fa-map-marker"></i> The Vista Centre, Suite A3/4B<br>50 Salisbury Road<br>Hounslow TW4 6JQ</p>
+                        <p><i class="fa fa-map-marker"></i> No.81, Greenham, Bretton<br>Peterborough PE3 9YS<br>England, United Kingdom</p>
                         <ul>
-                            <li><span>Phone:</span><a href="#">+44(0)2085 380145</a></li>
+                            <li><span>Phone:</span><a href="#">+44(0)781 379 7544</a></li>
                             <li><span>Email:</span><a href="#">ashok.selvaraj@mtisuklimited.co.uk</a></li>
                         </ul>
                     </div>
